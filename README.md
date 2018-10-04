@@ -4,6 +4,7 @@ Practice how to create tables and populate them with randomly generated data
 ## Create the following database tables
 Replace string by either CHAT, TEXT or ENUM as you beleive necesary. You can use phpMyAdmin or other mysql graphic tools to make your work easier.
 
+```
 inventory
 ----
 id, int PK AUTOINCREMENT
@@ -43,6 +44,7 @@ phone, string
 email, string
 address, string
 country, string(2)
+```
 
 ## Fill the tables with random data
 Download the SQL scheema (all tables in SQL language) and use the online tool http://filldb.info to fill the columns with randomly generated data. Create at least 5000 rows for the table "sales". Export the resulting SQL into your database. 
